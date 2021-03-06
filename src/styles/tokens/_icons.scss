@@ -1,0 +1,239 @@
+$icon-align-center: "\e900";
+$icon-align-justify: "\e901";
+$icon-align-left: "\e902";
+$icon-align-right: "\e903";
+$icon-angle-down: "\e904";
+$icon-angle-left: "\e905";
+$icon-angle-right: "\e906";
+$icon-angle-up: "\e907";
+$icon-arrow-down: "\e908";
+$icon-arrow-left: "\e909";
+$icon-arrow-right: "\e90a";
+$icon-arrow-up: "\e90b";
+$icon-asterisk: "\e90c";
+$icon-bag: "\e90d";
+$icon-bell: "\e90e";
+$icon-bin: "\e90f";
+$icon-bold: "\e910";
+$icon-bolt: "\e911";
+$icon-bullhorn: "\e912";
+$icon-calendar: "\e913";
+$icon-caret-down: "\e914";
+$icon-caret-left: "\e915";
+$icon-caret-right: "\e916";
+$icon-caret-up: "\e917";
+$icon-check: "\e918";
+$icon-cms: "\e919";
+$icon-code: "\e91a";
+$icon-cog: "\e91b";
+$icon-condition: "\e91c";
+$icon-copy: "\e91d";
+$icon-cross: "\e91e";
+$icon-cut: "\e91f";
+$icon-delivery: "\e920";
+$icon-disconnected: "\e921";
+$icon-dollar: "\e922";
+$icon-dot-dot-dot: "\e923";
+$icon-download: "\e924";
+$icon-drag: "\e925";
+$icon-eatin: "\e926";
+$icon-embed: "\e927";
+$icon-envelope: "\e928";
+$icon-equals: "\e929";
+$icon-euro: "\e92a";
+$icon-exclamation: "\e92b";
+$icon-file-archive: "\e92c";
+$icon-file-audio: "\e92d";
+$icon-file-code: "\e92e";
+$icon-file-document: "\e92f";
+$icon-file-image: "\e930";
+$icon-file-video: "\e931";
+$icon-filter: "\e932";
+$icon-flag: "\e933";
+$icon-font: "\e934";
+$icon-globe: "\e935";
+$icon-greater-than: "\e936";
+$icon-greater-than-equal: "\e937";
+$icon-heading: "\e938";
+$icon-heading1: "\e939";
+$icon-heading2: "\e93a";
+$icon-heading3: "\e93b";
+$icon-hidden: "\e93c";
+$icon-highlighter: "\e93d";
+$icon-indent: "\e93e";
+$icon-info: "\e93f";
+$icon-italic: "\e940";
+$icon-l8n: "\e941";
+$icon-less-than: "\e942";
+$icon-less-than-equal: "\e943";
+$icon-lightspeed: "\e944";
+$icon-link: "\e945";
+$icon-list: "\e946";
+$icon-list-ol: "\e947";
+$icon-location: "\e948";
+$icon-message: "\e949";
+$icon-minus: "\e94a";
+$icon-not-equal: "\e94b";
+$icon-open: "\e94c";
+$icon-paragraph: "\e94d";
+$icon-parent: "\e94e";
+$icon-paste: "\e94f";
+$icon-percent: "\e950";
+$icon-phone: "\e951";
+$icon-pickup: "\e952";
+$icon-plus: "\e953";
+$icon-pound: "\e954";
+$icon-redo: "\e955";
+$icon-remove-format: "\e956";
+$icon-reply: "\e957";
+$icon-reporting: "\e958";
+$icon-search: "\e959";
+$icon-send: "\e95a";
+$icon-share: "\e95b";
+$icon-shop: "\e95c";
+$icon-smiley: "\e95d";
+$icon-sort: "\e95e";
+$icon-sort-down: "\e95f";
+$icon-sort-up: "\e960";
+$icon-star: "\e961";
+$icon-star-full: "\e962";
+$icon-step-backward: "\e963";
+$icon-step-forward: "\e964";
+$icon-strikethrough: "\e965";
+$icon-subscript: "\e966";
+$icon-superscript: "\e967";
+$icon-sync: "\e968";
+$icon-target: "\e969";
+$icon-text-height: "\e96a";
+$icon-time: "\e96b";
+$icon-underline: "\e96c";
+$icon-undo: "\e96d";
+$icon-unlink: "\e96e";
+$icon-upload: "\e96f";
+$icon-user: "\e970";
+$icon-virtual: "\e971";
+$icon-visible: "\e972";
+$icon-wifi: "\e973";
+$icon-workflow: "\e974";
+
+$f-icons: (
+  icon-align-center: $icon-align-center,
+  icon-align-justify: $icon-align-justify,
+  icon-align-left: $icon-align-left,
+  icon-align-right: $icon-align-right,
+  icon-angle-down: $icon-angle-down,
+  icon-angle-left: $icon-angle-left,
+  icon-angle-right: $icon-angle-right,
+  icon-angle-up: $icon-angle-up,
+  icon-arrow-down: $icon-arrow-down,
+  icon-arrow-left: $icon-arrow-left,
+  icon-arrow-right: $icon-arrow-right,
+  icon-arrow-up: $icon-arrow-up,
+  icon-asterisk: $icon-asterisk,
+  icon-bag: $icon-bag,
+  icon-bell: $icon-bell,
+  icon-bin: $icon-bin,
+  icon-bold: $icon-bold,
+  icon-bolt: $icon-bolt,
+  icon-bullhorn: $icon-bullhorn,
+  icon-calendar: $icon-calendar,
+  icon-caret-down: $icon-caret-down,
+  icon-caret-left: $icon-caret-left,
+  icon-caret-right: $icon-caret-right,
+  icon-caret-up: $icon-caret-up,
+  icon-check: $icon-check,
+  icon-cms: $icon-cms,
+  icon-code: $icon-code,
+  icon-cog: $icon-cog,
+  icon-condition: $icon-condition,
+  icon-copy: $icon-copy,
+  icon-cross: $icon-cross,
+  icon-cut: $icon-cut,
+  icon-delivery: $icon-delivery,
+  icon-disconnected: $icon-disconnected,
+  icon-dollar: $icon-dollar,
+  icon-dot-dot-dot: $icon-dot-dot-dot,
+  icon-download: $icon-download,
+  icon-drag: $icon-drag,
+  icon-eatin: $icon-eatin,
+  icon-embed: $icon-embed,
+  icon-envelope: $icon-envelope,
+  icon-equals: $icon-equals,
+  icon-euro: $icon-euro,
+  icon-exclamation: $icon-exclamation,
+  icon-file-archive: $icon-file-archive,
+  icon-file-audio: $icon-file-audio,
+  icon-file-code: $icon-file-code,
+  icon-file-document: $icon-file-document,
+  icon-file-image: $icon-file-image,
+  icon-file-video: $icon-file-video,
+  icon-filter: $icon-filter,
+  icon-flag: $icon-flag,
+  icon-font: $icon-font,
+  icon-globe: $icon-globe,
+  icon-greater-than: $icon-greater-than,
+  icon-greater-than-equal: $icon-greater-than-equal,
+  icon-heading: $icon-heading,
+  icon-heading1: $icon-heading1,
+  icon-heading2: $icon-heading2,
+  icon-heading3: $icon-heading3,
+  icon-hidden: $icon-hidden,
+  icon-highlighter: $icon-highlighter,
+  icon-indent: $icon-indent,
+  icon-info: $icon-info,
+  icon-italic: $icon-italic,
+  icon-l8n: $icon-l8n,
+  icon-less-than: $icon-less-than,
+  icon-less-than-equal: $icon-less-than-equal,
+  icon-lightspeed: $icon-lightspeed,
+  icon-link: $icon-link,
+  icon-list: $icon-list,
+  icon-list-ol: $icon-list-ol,
+  icon-location: $icon-location,
+  icon-message: $icon-message,
+  icon-minus: $icon-minus,
+  icon-not-equal: $icon-not-equal,
+  icon-open: $icon-open,
+  icon-paragraph: $icon-paragraph,
+  icon-parent: $icon-parent,
+  icon-paste: $icon-paste,
+  icon-percent: $icon-percent,
+  icon-phone: $icon-phone,
+  icon-pickup: $icon-pickup,
+  icon-plus: $icon-plus,
+  icon-pound: $icon-pound,
+  icon-redo: $icon-redo,
+  icon-remove-format: $icon-remove-format,
+  icon-reply: $icon-reply,
+  icon-reporting: $icon-reporting,
+  icon-search: $icon-search,
+  icon-send: $icon-send,
+  icon-share: $icon-share,
+  icon-shop: $icon-shop,
+  icon-smiley: $icon-smiley,
+  icon-sort: $icon-sort,
+  icon-sort-down: $icon-sort-down,
+  icon-sort-up: $icon-sort-up,
+  icon-star: $icon-star,
+  icon-star-full: $icon-star-full,
+  icon-step-backward: $icon-step-backward,
+  icon-step-forward: $icon-step-forward,
+  icon-strikethrough: $icon-strikethrough,
+  icon-subscript: $icon-subscript,
+  icon-superscript: $icon-superscript,
+  icon-sync: $icon-sync,
+  icon-target: $icon-target,
+  icon-text-height: $icon-text-height,
+  icon-time: $icon-time,
+  icon-underline: $icon-underline,
+  icon-undo: $icon-undo,
+  icon-unlink: $icon-unlink,
+  icon-upload: $icon-upload,
+  icon-user: $icon-user,
+  icon-virtual: $icon-virtual,
+  icon-visible: $icon-visible,
+  icon-wifi: $icon-wifi,
+  icon-workflow: $icon-workflow,
+);
+
+
