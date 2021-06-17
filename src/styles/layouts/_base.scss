@@ -1,0 +1,30 @@
+a.link{
+  --bg: #{color(primary10)};
+  --color: #{color(primary50)};
+
+  text-decoration: none;
+  box-shadow: inset 0px -10px 0px var(--bg);
+  color: var(--color);
+
+  @include td(m);
+
+  &:hover,
+  &:focus{
+    box-shadow: inset 0 -2px 0 var(--bg);
+  }
+
+  &.-red{
+    --bg: #{color(red10)};
+    --color: #{color(red50)};
+  }
+  
+  &.-teal{
+    --bg: #{color(teal10)};
+    --color: #{color(teal50)};
+  }
+  
+  &.-yellow{
+    --bg: #{color(yellow10)};
+    --color: #{color(yellow50)};
+  }
+}

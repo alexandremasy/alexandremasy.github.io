@@ -12,7 +12,7 @@ const routes = [
     name: 'Home',
     component: Home,
     meta: {
-      bodyClass: 'view-home'
+      bodyClass: 'theme-alexandremasy view-home'
     }
   }
 ]

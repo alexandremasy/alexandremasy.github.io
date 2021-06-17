@@ -1,22 +1,24 @@
 <template>
-  <main class="main view-home">
+  <main class="main">
 
-    <div class="container">
+    <div class="view-home__logo container">
       <a href="/">
-        <img src="/statics/images/logo/alexandremasy/positive.svg" alt="alexandremasy logo">
+        <img 
+          class="view-home__glyph"
+          src="/statics/images/logo/alexandremasy/positive.svg" alt="alexandremasy logo">
       </a>
     </div>
 
     <!-- Intro -->
-    <div class="view-home__intro">
+    <div class="view-home__intro container">
       <h1 class="view-home__name">Alexandre Masy</h1>
-      <h2 class="view-home__title">UI Designer + Engineer with a knack for the UX</h2>
+      <h2 class="view-home__title">UI Designer + Engineer<br/> with a knack for the UX</h2>
       <div class="view-home__description">
-        <p>I’m a creative who mixes design and technology to create beautiful things. Combining well-studied user experience with a balanced, harmonious and consistent design from conception to realisation. That's the spicy mix, I'm aiming to foster good products. </p>
-        <p>With more than a decade of experience, I’ve been lucky to join all kind of team, as a lead or not, been rewarded by crafting amazing experiences, while being amazed by all the extraordinary people I had the chance to work with.</p>
-        <p>Currently, as Product Designer for Infinity-Mobile you’ll find me behind products like Sayl and Shopitag. On the side, I'm conducting a research project with the aim easing my whole lifecycle around design system.</p>
+        <p>I’m a creative who mixes design and technology to create <em>beautiful</em>™ things. Combining well-studied user experience with a balanced, harmonious and consistent design from conception to realisation. That's the spicy mix, I'm aiming to foster good products.</p>
+        <p>With more than <a class="link -teal" href="https://linkedin.com/alexandremasy" target="_blank">a decade of experience</a>, I’ve been lucky to join all kind of team, as a lead or not, been rewarded by crafting amazing experiences, while being amazed by all the extraordinary people I had the chance to work with.</p>
+        <p>Currently, as Product Designer for <a href="https://infinity-mobile.io" class="link -blue" target="_blank">Infinity-Mobile</a> you’ll find me behind products like <a class="link -teal" href="https://sayl.cloud" target="_blank">Sayl</a> and <a class="link -red" href="https://shopitag.com" target="_blank">Shopitag</a>. On the side, I'm conducting a <a  class="link -yellow" href="https://spices.alexandremasy.com" target="_blank">research project</a> with the aim easing my whole lifecycle around design system.</p>
       </div>
-    </div>
+    </div> 
 
 
   </main>

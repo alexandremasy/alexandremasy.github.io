@@ -1,3 +1,58 @@
 .view-home{
+  $root: '.view-home';
+
+  .container{
+    width: calc(100% / 14 * 10);
+    max-width: 72rem;
+    @include mx(auto);
+  }
+
+  ////////////////////////////////////////////////////
+  //
+  //	Logo
+  //
+  ////////////////////////////////////////////////////
   
+  #{$root}__logo{
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+
+    #{$root}__glyph {
+      width: 4rem;
+      height: auto;
+    }
+  }
+
+
+  ////////////////////////////////////////////////////
+  //
+  //	Intro
+  //
+  ////////////////////////////////////////////////////
+
+  #{$root}__intro{
+  }
+
+  #{$root}__name{
+    @include f(body);
+    @include f(l);
+    @include f(light90);
+  }
+
+  #{$root}__title{
+    @include m(0);
+
+    @include f(body);
+    @include f(xxxxxxl);
+    @include f(blue50);
+    @include f(medium);
+    line-height: 1.25;
+  }  
+
+  #{$root}__description{
+    @include f(body);
+    @include f(light70);
+    @include f(xxl);
+    line-height: 1.5;
+  }
 }
