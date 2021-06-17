@@ -1,11 +1,39 @@
 .view-home{
   $root: '.view-home';
 
+  .main{
+    @include b-relative;
+    @include z(1);
+  }
+
   .container{
     width: calc(100% / 14 * 10);
     max-width: 72rem;
     @include mx(auto);
+
   }
+
+  ////////////////////////////////////////////////////
+  //
+  //	Figures
+  //
+  ////////////////////////////////////////////////////
+  #{$root}__figure {
+    @include b-absolute;
+    @include t(0);
+    @include l(0);
+    @include z(1);
+  }
+
+  #{$root}__top-right{
+    left: unset;
+    right: 0;
+  }
+
+  #{$root}__top-left {
+    top: 22rem;
+  }
+
 
   ////////////////////////////////////////////////////
   //
