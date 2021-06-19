@@ -1,3 +1,8 @@
+body{
+  @include m(0);
+  @include p(0);
+}
+
 a.link{
   --bg: #{color(primary10)};
   --color: #{color(primary50)};

@@ -31,7 +31,7 @@
   }
 
   #{$root}__top-left {
-    top: 22rem;
+    top: 10rem;
   }
 
 
@@ -65,6 +65,7 @@
     @include f(body);
     @include f(l);
     @include f(light90);
+    font-weight: 400;
   }
 
   #{$root}__title{
@@ -79,8 +80,137 @@
 
   #{$root}__description{
     @include f(body);
-    @include f(light70);
+    @include f(light60);
     @include f(xxl);
     line-height: 1.5;
+
+    max-width: 45rem;
   }
+
+  ////////////////////////////////////////////////////
+  //
+  //	Work
+  //
+  ////////////////////////////////////////////////////
+
+  #{$root}-work{ 
+    @include mt(xxxl);
+  }
+
+  #{$root}-work__subtitle {
+    @include f(medium);
+    @include f(light40);
+  }
+
+  #{$root}-work__title {
+    @include mt(0);
+
+    @include f(xxl);
+    @include f(light60);
+    font-weight: 400;
+  }
+
+  #{$root}-work__content{
+    $offset: 2.5rem;
+    @include b-relative;
+    @include mt(xl);
+
+    &::before {
+      content: '';
+
+      @include b-absolute;
+      top: #{ $offset };
+      @include l(0);
+      @include z(1);
+
+      @include b-block;
+      @include width(100);
+      height: calc(100% - #{$offset} - #{$offset});
+      @include bg(light10);
+    }
+    
+    .container {
+      @include b-relative;
+      @include z(2);
+    }
+  }
+
+  ////////////////////////////////////////////////////
+  //
+  //	Work::Item
+  //
+  ////////////////////////////////////////////////////
+
+  .work-item{
+    @include b-flex;
+
+    & + .work-item {
+      @include mt(l);
+      border-top: 1px solid color(light20);
+      @include pt(l);
+    }
+  }
+
+  .work-item__content{
+    @include b-flex;
+    @include b-flex(column);
+
+    width: 40%;
+  }
+
+  .work-item__figure{
+    width: 60%;
+  }
+
+  .work-item__intro{
+    flex: 0;
+    @include b-flex();
+
+    & > * + * {
+      @include ml(s);
+    }
+  }
+
+  .work-item__i {
+    @include f(m);
+    @include f(light90);
+  }
+  .work-item__n {
+    @include f(m);
+    @include f(light30);
+  }
+
+  .work-item__primary{
+    @include b-flex(1);
+    @include b-flex;
+    @include b-flex(column);
+    @include b-flex(center);
+  }
+
+  .work-item__title {
+    @include f(xxl);
+    @include f(light80); 
+  }
+
+  .work-item__description {
+    @include mt(xs);
+
+    @include f(m);
+    @include f(light60);
+  }
+
+  .work-item__cta{
+    @include b-inblock;
+    align-self: baseline;
+
+    @include mt(m);
+  }
+
+  .work-item__image{
+    @include width(100);
+    object-fit: contain;
+
+    @include shadow(l);
+  }
+
 }
