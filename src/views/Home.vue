@@ -8,6 +8,9 @@
       <img  
         src="statics/images/top-right.svg"
         class="view-home__figure view-home__top-right" />
+      <img  
+        src="statics/images/bottom-right.svg"
+        class="view-home__figure view-home__bottom-right" />
     </div>
 
     <main class="main">
@@ -41,19 +44,22 @@
       <!-- Work -->
       <home-work />
 
-
+      <!-- Footer -->
+      <navigation-footer />
     </main>
   </div>
 </template>
 
 <script>
 import HomeWork from './components/home-work'
+import NavigationFooter from './components/navigations/footer'
 
 export default {
   name: 'Home',
 
   components: {
-    HomeWork
+    HomeWork,
+    NavigationFooter
   }
 }
 </script>

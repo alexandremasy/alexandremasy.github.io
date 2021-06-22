@@ -54,13 +54,13 @@ $f-faces: (
 $f-root: 16px !default;
 
 $f-sizes: (
-  xxxxxxl: 2.625rem,
-  xxxxxl: 2.25rem,
+  xxxxxxl: (1.5rem, 2.625rem),
+  xxxxxl: (1.5rem, 2.25rem),
   xxxxl: 2rem,
   xxxl: 1.75rem,
-  xxl: 1.5rem,
-  xl: 1.25rem,
-  l: 1.125rem,
+  xxl: (1.25rem, 1.5rem),
+  xl: (1.125rem, 1.25rem),
+  l: (1rem, 1.125rem),
   m: 1rem,
   s: 0.875rem,
   xs: 0.75rem,

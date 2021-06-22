@@ -1,0 +1,102 @@
+.work-item {
+  $root: '.work-item';
+
+  @include b-flex;
+  @include b-flex(column);
+
+  // @include mt(l);
+  // border-top: 1px solid color(light20);
+  // @include pt(l);
+
+  @include b-relative;
+
+  ////////////////////////////////////////////////////
+  //
+  //	Intro
+  //
+  ////////////////////////////////////////////////////
+
+  #{$root}__intro{
+    flex: 0;
+    @include b-flex();
+
+    @include b-absolute;
+    @include t(0);
+    @include l(0);
+
+    & > * + * {
+      @include ml(s);
+    }
+  }
+
+  #{$root}__i {
+    @include f(m);
+    @include f(light90);
+  }
+  #{$root}__n {
+    @include f(m);
+    @include f(light30);
+  }
+
+  ////////////////////////////////////////////////////
+  //
+  //	Content
+  //
+  ////////////////////////////////////////////////////
+
+  #{$root}__content{
+    @include b-flex;
+    @include b-flex(column);
+
+    width: 50%;
+    @include media('>m'){
+      width: 40%;
+    }
+  }
+
+  #{$root}__figure{
+    width: 50%;
+    @include m(0);
+    
+    @include media('>m'){
+      width: 60%;
+    }
+  }
+
+  
+
+  #{$root}__primary{
+    @include b-flex(1);
+    @include b-flex;
+    @include b-flex(column);
+    @include b-flex(center);
+  }
+
+  #{$root}__title {
+    @include f(xl);
+    @include f(light80); 
+    @include f(medium);
+  }
+
+  #{$root}__description {
+    @include mt(xs);
+
+    @include f(xl);
+    @include f(light60);
+  }
+
+  #{$root}__cta{
+    @include mt(l);
+    @include b-inblock;
+    align-self: baseline;
+    
+    @include f(xl);
+  }
+
+  #{$root}__image{
+    @include width(100);
+    object-fit: contain;
+
+    @include shadow(l);
+  }
+}

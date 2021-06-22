@@ -1,0 +1,110 @@
+.n-footer {
+  $root: '.n-footer';
+
+  ////////////////////////////////////////////////////
+  //
+  //	Intro
+  //
+  ////////////////////////////////////////////////////
+
+  #{$root}__intro{
+    @include pt(xl);
+  }
+
+  #{$root}__subtitle {
+    @include f(xl);
+    @include f(light50);
+  }
+
+  #{$root}__title {
+    @include f(xl);
+    @include f(medium);
+    @include f(light90);
+  }
+
+  ////////////////////////////////////////////////////
+  //
+  //	Email
+  //
+  ////////////////////////////////////////////////////
+  #{$root}__email{
+    @include b-flex;
+    @include b-flex(column);
+    @include mt(xl);
+
+    .link{
+      @include f(xl);
+      @include b-inblock;
+      align-self: baseline;
+    }
+  }
+
+  #{$root}__label{
+    @include f(m);
+    @include f(light50);
+  }
+
+  ////////////////////////////////////////////////////
+  //
+  //	Socials
+  //
+  ////////////////////////////////////////////////////
+
+  #{$root}__socials {
+    @include mt(xl);
+
+    @include b-flex;
+
+    & > * + * {
+      @include ml(s);
+    }
+  }
+
+  #{$root}__social {
+    img {
+      width: 1rem;
+      height: 1rem;
+      opacity: .6;
+
+      @include td(m);
+    }
+
+    &:hover,
+    &:focus {
+      img {
+        opacity: 1;
+      }
+    }
+  }
+
+  ////////////////////////////////////////////////////
+  //
+  //	Copyright
+  //
+  ////////////////////////////////////////////////////
+
+  #{$root}__copyright {
+    @include mt(l);
+    border-top: 1px solid color(light20);
+    @include py(l);
+
+    @include b-flex;
+
+    & > * + * {
+      @include ml(s);
+    }
+
+    img {
+      height: 1rem;
+      width: auto;
+      object-fit: contain;
+    }
+  }
+
+  #{$root}__legal {
+    @include f(s);
+    @include f(light50); 
+  }
+
+
+}

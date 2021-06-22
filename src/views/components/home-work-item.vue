@@ -1,13 +1,15 @@
 <template>
   <div 
-    class="work-item">
+    class="work-item"
+    :class="klass">
+
+    <div class="work-item__intro">
+      <div class="work-item__i">{{ i }}</div>
+      <div class="work-item__n">•</div>
+      <div class="work-item__n">03</div>
+    </div>
 
     <div class="work-item__part work-item__content">
-      <div class="work-item__intro">
-        <div class="work-item__i">{{ i }}</div>
-        <div class="work-item__n">•</div>
-        <div class="work-item__n">03</div>
-      </div>
 
       <div class="work-item__primary">
         <div class="work-item__title">{{ title }}</div>
@@ -16,7 +18,7 @@
         <a 
           :href="href"
           class="work-item__cta link"
-          :class="klass">{{ cta }}</a>
+          :class="color">{{ cta }}</a>
       </div>
     </div>
 
@@ -33,6 +35,10 @@ export default {
   props: {
     cta: {
       type:String
+    },
+
+    color: {
+      type: String
     },
 
     description: {

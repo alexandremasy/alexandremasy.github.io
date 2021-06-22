@@ -32,7 +32,8 @@ export default {
     return {
       children: [
         {
-          klass: '-teal',
+          klass: '-v',
+          color: '-teal',
           title: 'Sayl',
           description: 'Branding - Product - Architect',
           cta: 'Wave the flag',
@@ -41,7 +42,8 @@ export default {
           figure: 'statics/images/projects/sayl.svg'
         },
         {
-          klass: '-orange',
+          klass: '-v',
+          color: '-orange',
           title: 'Shopitag',
           description: 'Branding - Product',
           cta: 'Everyone onboard',
@@ -50,7 +52,8 @@ export default {
           figure: 'statics/images/projects/shopitag.svg'
         },
         {
-          klass: '-yellow',
+          klass: '-h',
+          color: '-yellow',
           title: 'Spices',
           description: 'Branding - Product - Architect',
           cta: 'Spice up your life',

@@ -7,10 +7,13 @@
   }
 
   .container{
-    width: calc(100% / 14 * 10);
+    width: calc(100% / 14 * 12);
     max-width: 72rem;
     @include mx(auto);
-
+    
+    @include media('>m'){
+      width: calc(100% / 14 * 10);
+    }
   }
 
   ////////////////////////////////////////////////////
@@ -34,6 +37,14 @@
     top: 10rem;
   }
 
+  #{$root}__bottom-right {
+    bottom: 1rem;
+    top: unset;
+
+    left: unset;
+    right: 0;
+  }
+
 
   ////////////////////////////////////////////////////
   //
@@ -42,11 +53,15 @@
   ////////////////////////////////////////////////////
   
   #{$root}__logo{
-    @include py(xxxxl);
-
+    @include py(xxl);
+    
     #{$root}__glyph {
       width: 4rem;
       height: auto;
+    }
+    
+    @include media('>m'){
+      @include py(xxxxl);
     }
   }
 
@@ -56,9 +71,6 @@
   //	Intro
   //
   ////////////////////////////////////////////////////
-
-  #{$root}__intro{
-  }
 
   #{$root}__greeting{
     @include f(l);
@@ -91,7 +103,11 @@
   //
   ////////////////////////////////////////////////////
   #{$root}__tldr{
-    @include mt(xxxxl);
+    @include mt(xxl);
+    
+    @include media('>m'){
+      @include mt(xxxxl);
+    }
   }
   
   #{$root}__description{
@@ -110,7 +126,14 @@
   ////////////////////////////////////////////////////
 
   #{$root}-work{ 
-    @include mt(xxxxl);
+    @include mt(xxl);
+    
+    @include media('>m'){
+      @include mt(xxxxl);
+    }
+  }
+  
+  #{$root}-work__intro {
     @include pt(xxl);
     @include bg(light10);
   }
@@ -123,6 +146,7 @@
 
   #{$root}-work__title {
     @include mt(s);
+    @include mb(0);
 
     @include f(xl);
     @include f(light90);
@@ -132,7 +156,26 @@
   #{$root}-work__content{
     $offset: 2.5rem;
     @include b-relative;
-    @include mt(xl);
+    @include pt(xl);
+
+    &::before {
+      content: '';
+
+      @include b-absolute;
+      top: 0;
+      @include l(0);
+      @include z(1);
+
+      @include b-block;
+      @include width(100);
+      height: calc(100% - #{$offset});
+      @include bg(light10);
+    }
+    
+    .container {
+      @include b-relative;
+      @include z(2);
+    }
   }
 
   ////////////////////////////////////////////////////
@@ -141,77 +184,6 @@
   //
   ////////////////////////////////////////////////////
 
-  .work-item{
-    @include b-flex;
-
-    @include mt(l);
-    border-top: 1px solid color(light20);
-    @include pt(l);
-  }
-
-  .work-item__content{
-    @include b-flex;
-    @include b-flex(column);
-
-    width: 40%;
-  }
-
-  .work-item__figure{
-    width: 60%;
-    @include m(0);
-  }
-
-  .work-item__intro{
-    flex: 0;
-    @include b-flex();
-
-    & > * + * {
-      @include ml(s);
-    }
-  }
-
-  .work-item__i {
-    @include f(m);
-    @include f(light90);
-  }
-  .work-item__n {
-    @include f(m);
-    @include f(light30);
-  }
-
-  .work-item__primary{
-    @include b-flex(1);
-    @include b-flex;
-    @include b-flex(column);
-    @include b-flex(center);
-  }
-
-  .work-item__title {
-    @include f(xl);
-    @include f(light80); 
-    @include f(medium);
-  }
-
-  .work-item__description {
-    @include mt(xs);
-
-    @include f(xl);
-    @include f(light60);
-  }
-
-  .work-item__cta{
-    @include mt(l);
-    @include b-inblock;
-    align-self: baseline;
-    
-    @include f(xl);
-  }
-
-  .work-item__image{
-    @include width(100);
-    object-fit: contain;
-
-    @include shadow(l);
-  }
+  
 
 }

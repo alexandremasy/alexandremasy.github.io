@@ -3,6 +3,10 @@ body{
   @include p(0);
 }
 
+#app {
+  @include b-relative;
+}
+
 a.link{
   --bg: #{color(primary10)};
   --color: #{color(primary50)};
