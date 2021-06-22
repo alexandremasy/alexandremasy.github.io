@@ -18,6 +18,11 @@ a.link{
     box-shadow: inset 0 -2px 0 var(--bg);
   }
 
+  &.-orange {
+    --bg: #{color(orange10)};
+    --color: #{color(orange50)};
+  }
+
   &.-red{
     --bg: #{color(red10)};
     --color: #{color(red50)};
@@ -25,7 +30,7 @@ a.link{
   
   &.-teal{
     --bg: #{color(teal10)};
-    --color: #{color(teal50)};
+    --color: #{color(teal60)};
   }
   
   &.-yellow{

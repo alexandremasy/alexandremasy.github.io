@@ -2,8 +2,8 @@
   <div class="view-home-work">
     <div class="view-home-work__intro">
       <div class="container">
-        <div class="view-home-work__subtitle">What’s up men?</div>
-        <h2 class="view-home-work__title">My Daily Pixel Work</h2>
+        <div class="view-home-work__subtitle">I'm the one.</div>
+        <h2 class="view-home-work__title">I craft theses babies!</h2>
       </div>
     </div>
 
@@ -32,24 +32,30 @@ export default {
     return {
       children: [
         {
+          klass: '-teal',
           title: 'Sayl',
-          description: 'Branding - Product design - Lead Frontend & Architect',
-          cta: 'Onboard for a journey',
+          description: 'Branding - Product - Architect',
+          cta: 'Wave the flag',
           href:'https://sayl.cloud',
+          i: '01',
           figure: 'statics/images/projects/sayl.svg'
         },
         {
+          klass: '-orange',
           title: 'Shopitag',
-          description: 'Branding - UX & UI Design - Frontend development',
+          description: 'Branding - Product',
           cta: 'Everyone onboard',
           href:'https://shopitag.com',
+          i: '02',
           figure: 'statics/images/projects/shopitag.svg'
         },
         {
+          klass: '-yellow',
           title: 'Spices',
-          description: 'One men show',
+          description: 'Branding - Product - Architect',
           cta: 'Spice up your life',
           href:'https://spices.alexandremasy.com',
+          i: '03',
           figure: 'statics/images/projects/spices.svg'
         },
       ]

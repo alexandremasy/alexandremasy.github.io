@@ -42,8 +42,7 @@
   ////////////////////////////////////////////////////
   
   #{$root}__logo{
-    padding-top: 7.5rem;
-    padding-bottom: 7.5rem;
+    @include py(xxxxl);
 
     #{$root}__glyph {
       width: 4rem;
@@ -61,11 +60,18 @@
   #{$root}__intro{
   }
 
-  #{$root}__name{
-    @include f(body);
+  #{$root}__greeting{
     @include f(l);
+    @include f(light50);
+  }
+
+  #{$root}__name{
+    @include m(0);
+
+    @include f(body);
+    @include f(xxxxxxl);
     @include f(light90);
-    font-weight: 400;
+    @include f(medium);
   }
 
   #{$root}__title{
@@ -73,14 +79,24 @@
 
     @include f(body);
     @include f(xxxxxxl);
-    @include f(blue50);
-    @include f(medium);
+    @include f(light40);
+    font-weight: 400;
     line-height: 1.25;
   }  
 
+  
+  ////////////////////////////////////////////////////
+  //
+  //	TLDR
+  //
+  ////////////////////////////////////////////////////
+  #{$root}__tldr{
+    @include mt(xxxxl);
+  }
+  
   #{$root}__description{
     @include f(body);
-    @include f(light60);
+    @include f(light90);
     @include f(xxl);
     line-height: 1.5;
 
@@ -94,45 +110,29 @@
   ////////////////////////////////////////////////////
 
   #{$root}-work{ 
-    @include mt(xxxl);
+    @include mt(xxxxl);
+    @include pt(xxl);
+    @include bg(light10);
   }
 
   #{$root}-work__subtitle {
+    @include f(xl);
     @include f(medium);
     @include f(light40);
   }
 
   #{$root}-work__title {
-    @include mt(0);
+    @include mt(s);
 
-    @include f(xxl);
-    @include f(light60);
-    font-weight: 400;
+    @include f(xl);
+    @include f(light90);
+    @include f(medium);
   }
 
   #{$root}-work__content{
     $offset: 2.5rem;
     @include b-relative;
     @include mt(xl);
-
-    &::before {
-      content: '';
-
-      @include b-absolute;
-      top: #{ $offset };
-      @include l(0);
-      @include z(1);
-
-      @include b-block;
-      @include width(100);
-      height: calc(100% - #{$offset} - #{$offset});
-      @include bg(light10);
-    }
-    
-    .container {
-      @include b-relative;
-      @include z(2);
-    }
   }
 
   ////////////////////////////////////////////////////
@@ -144,11 +144,9 @@
   .work-item{
     @include b-flex;
 
-    & + .work-item {
-      @include mt(l);
-      border-top: 1px solid color(light20);
-      @include pt(l);
-    }
+    @include mt(l);
+    border-top: 1px solid color(light20);
+    @include pt(l);
   }
 
   .work-item__content{
@@ -160,6 +158,7 @@
 
   .work-item__figure{
     width: 60%;
+    @include m(0);
   }
 
   .work-item__intro{
@@ -188,22 +187,24 @@
   }
 
   .work-item__title {
-    @include f(xxl);
+    @include f(xl);
     @include f(light80); 
+    @include f(medium);
   }
 
   .work-item__description {
     @include mt(xs);
 
-    @include f(m);
+    @include f(xl);
     @include f(light60);
   }
 
   .work-item__cta{
+    @include mt(l);
     @include b-inblock;
     align-self: baseline;
-
-    @include mt(m);
+    
+    @include f(xl);
   }
 
   .work-item__image{
