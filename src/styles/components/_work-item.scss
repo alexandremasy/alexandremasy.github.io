@@ -4,11 +4,7 @@
   @include b-flex;
   @include b-flex(column);
 
-  // @include mt(l);
-  // border-top: 1px solid color(light20);
-  // @include pt(l);
-
-  @include b-relative;
+  text-decoration: none;
 
   ////////////////////////////////////////////////////
   //
@@ -19,10 +15,6 @@
   #{$root}__intro{
     flex: 0;
     @include b-flex();
-
-    @include b-absolute;
-    @include t(0);
-    @include l(0);
 
     & > * + * {
       @include ml(s);
@@ -40,6 +32,30 @@
 
   ////////////////////////////////////////////////////
   //
+  //	Figure
+  //
+  ////////////////////////////////////////////////////
+  
+  #{$root}__figure{
+    @include mt(m);
+    @include mx(0);
+    border-radius: 8px;
+
+    overflow: hidden;
+  }
+
+  #{$root}__image{
+    @include width(100);
+    object-fit: contain;
+
+    @include shadow(l);
+
+    @include td(m);
+  }
+
+
+  ////////////////////////////////////////////////////
+  //
   //	Content
   //
   ////////////////////////////////////////////////////
@@ -47,29 +63,7 @@
   #{$root}__content{
     @include b-flex;
     @include b-flex(column);
-
-    width: 50%;
-    @include media('>m'){
-      width: 40%;
-    }
-  }
-
-  #{$root}__figure{
-    width: 50%;
-    @include m(0);
-    
-    @include media('>m'){
-      width: 60%;
-    }
-  }
-
-  
-
-  #{$root}__primary{
-    @include b-flex(1);
-    @include b-flex;
-    @include b-flex(column);
-    @include b-flex(center);
+    @include py(m);
   }
 
   #{$root}__title {
@@ -93,10 +87,41 @@
     @include f(xl);
   }
 
-  #{$root}__image{
-    @include width(100);
-    object-fit: contain;
+  
 
-    @include shadow(l);
+  ////////////////////////////////////////////////////
+  //
+  //	Interactive
+  //
+  ////////////////////////////////////////////////////
+
+  &:hover,
+  &:focus {
+    #{$root}__image{
+      transform: scale(1.05);
+    }
+  }
+
+  ////////////////////////////////////////////////////
+  //
+  //	Variants
+  //
+  ////////////////////////////////////////////////////
+  &.-sayl {
+    #{$root}__figure {
+      @include bg(teal70);
+    }
+  }
+
+  &.-shopitag {
+    #{$root}__figure {
+      background: #0C2831;
+    }
+  }
+
+  &.-spices {
+    #{$root}__figure {
+      @include bg(yellow60);
+    }
   }
 }

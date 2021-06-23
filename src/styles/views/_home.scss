@@ -21,6 +21,7 @@
   //	Figures
   //
   ////////////////////////////////////////////////////
+
   #{$root}__figure {
     @include b-absolute;
     @include t(0);
@@ -127,17 +128,14 @@
 
   #{$root}-work{ 
     @include mt(xxl);
+    @include py(xxl);
+    @include bg(light10);
     
     @include media('>m'){
       @include mt(xxxxl);
     }
   }
   
-  #{$root}-work__intro {
-    @include pt(xxl);
-    @include bg(light10);
-  }
-
   #{$root}-work__subtitle {
     @include f(xl);
     @include f(medium);
@@ -154,27 +152,24 @@
   }
 
   #{$root}-work__content{
-    $offset: 2.5rem;
-    @include b-relative;
+    @include b-flex;
+    padding-left: calc(100vw / 14 * 1);
+    padding-right: calc(100vw / 14 * 1);
+    overflow: auto;
     @include pt(xl);
-
-    &::before {
-      content: '';
-
-      @include b-absolute;
-      top: 0;
-      @include l(0);
-      @include z(1);
-
-      @include b-block;
-      @include width(100);
-      height: calc(100% - #{$offset});
-      @include bg(light10);
+    
+    & > * {
+      // max-width: 40rem;
+      min-width: max(16rem, calc(100vw / 14 * 5));
+      
+      & + * {
+        @include ml(m);
+      }
     }
     
-    .container {
-      @include b-relative;
-      @include z(2);
+    @include media('>m'){
+      padding-left: calc(100vw / 14 * 2);
+      padding-right: calc(100vw / 14 * 2);
     }
   }
 

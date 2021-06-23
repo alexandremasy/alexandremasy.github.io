@@ -8,12 +8,10 @@
     </div>
 
     <div class="view-home-work__content">
-      <div class="container">
-        <home-work-item
-          v-for="(c, i) in children"
-          :key="i"
-          v-bind="c" />
-      </div>
+      <home-work-item
+        v-for="(c, i) in children"
+        :key="i"
+        v-bind="c" />
     </div>
   </div>
 </template>
@@ -32,7 +30,7 @@ export default {
     return {
       children: [
         {
-          klass: '-v',
+          klass: '-sayl',
           color: '-teal',
           title: 'Sayl',
           description: 'Branding - Product - Architect',
@@ -42,7 +40,7 @@ export default {
           figure: 'statics/images/projects/sayl.svg'
         },
         {
-          klass: '-v',
+          klass: '-shopitag',
           color: '-orange',
           title: 'Shopitag',
           description: 'Branding - Product',
@@ -52,7 +50,7 @@ export default {
           figure: 'statics/images/projects/shopitag.svg'
         },
         {
-          klass: '-h',
+          klass: '-spices',
           color: '-yellow',
           title: 'Spices',
           description: 'Branding - Product - Architect',
