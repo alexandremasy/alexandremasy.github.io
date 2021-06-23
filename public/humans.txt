@@ -1,0 +1,11 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Alexandre Masy> -- <UI Designer & Engineer> -- <@alexandremasy>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Github Pages, Gitlab Pages, jQuery, Normalize.css
