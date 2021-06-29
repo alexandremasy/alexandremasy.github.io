@@ -29,13 +29,28 @@
     @include z(1);
   }
 
+  #{$root}__top-left {
+    top: 10rem;
+
+    width: 163px;
+    height: 400px;
+
+    @include media('>m'){
+      width: 327px;
+      height: 799px;
+    }
+  }
+
   #{$root}__top-right{
     left: unset;
     right: 0;
-  }
+    width: 316;
+    height: 289px;
 
-  #{$root}__top-left {
-    top: 10rem;
+    @include media('>m'){
+      width: 633px;
+      height: 578px;
+    }
   }
 
   #{$root}__bottom-right {
@@ -44,6 +59,13 @@
 
     left: unset;
     right: 0;
+    width: 235px;
+    height: 175px;
+
+    @include media('>m'){
+      width: 471px;
+      height: 351px;
+    }
   }
 
 

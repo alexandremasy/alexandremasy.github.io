@@ -2,16 +2,21 @@
   <div class="view">
     <!-- Figures -->
     <div class="view-home__figures">
+      <!-- Top Left -->
       <object 
         class="view-home__figure view-home__top-left"
         id="top-left" 
         type="image/svg+xml" 
         data="statics/images/top-left.svg"></object>
+      
+      <!-- Top Right -->
       <object 
         class="view-home__figure view-home__top-right"
         id="top-right" 
         type="image/svg+xml" 
         data="statics/images/top-right.svg"></object>
+
+      <!-- Bottom Right -->
       <object 
         class="view-home__figure view-home__bottom-right"
         id="bottom-right" 
