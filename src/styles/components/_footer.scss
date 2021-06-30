@@ -94,10 +94,14 @@
       @include ml(s);
     }
 
-    img {
+    #{$root}__glyph {
       height: 1rem;
       width: auto;
       object-fit: contain;
+
+      #leg {
+        animation: logo-leg 10s alternate-reverse infinite;
+      }
     }
   }
 

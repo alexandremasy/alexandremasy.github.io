@@ -86,6 +86,10 @@
     @include media('>m'){
       @include py(xxxxl);
     }
+
+    #leg {
+      animation: logo-leg 10s alternate-reverse infinite;
+    }
   }
 
 
@@ -194,13 +198,27 @@
       padding-right: calc(100vw / 14 * 2);
     }
   }
+}
 
-  ////////////////////////////////////////////////////
-  //
-  //	Work::Item
-  //
-  ////////////////////////////////////////////////////
+@keyframes logo-leg {
+  0% { stroke: color(red30) }
+  7% { stroke: color(red50) }
 
+  14% { stroke: color(orange30) }
+  21% { stroke: color(orange50) }
+
+  28% { stroke: color(yellow30) }
+  35% { stroke: color(yellow50) }
   
-
+  42% { stroke: color(green30) }
+  49% { stroke: color(green50) }
+  
+  56% { stroke: color(teal30) }
+  63% { stroke: color(teal50) }
+  
+  70% { stroke: color(blue30) }
+  77% { stroke: color(blue50) }
+  
+  84% { stroke: color(light30) }
+  91% { stroke: color(light50) }
 }
