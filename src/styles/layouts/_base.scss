@@ -5,7 +5,7 @@ body{
 
 #app {
   @include b-relative;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 a.link{

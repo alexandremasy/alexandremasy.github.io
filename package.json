@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "@pepper/themes-abc": "^1.29.1",
+    "aos": "^2.3.4",
     "core-js": "^3.6.5",
+    "vivus": "^0.4.6",
     "vue": "^2.6.11",
     "vue-body-class": "^3.0.2",
     "vue-router": "^3.2.0",

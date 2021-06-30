@@ -6,6 +6,7 @@
       <object 
         class="view-home__figure view-home__top-left"
         id="top-left" 
+        ref="topLeft" 
         type="image/svg+xml" 
         data="statics/images/top-left.svg"></object>
       
@@ -13,6 +14,7 @@
       <object 
         class="view-home__figure view-home__top-right"
         id="top-right" 
+        ref="topRight" 
         type="image/svg+xml" 
         data="statics/images/top-right.svg"></object>
 
@@ -20,6 +22,7 @@
       <object 
         class="view-home__figure view-home__bottom-right"
         id="bottom-right" 
+        ref="bottomRight" 
         type="image/svg+xml" 
         data="statics/images/bottom-right.svg"></object>
     </div>
@@ -27,7 +30,9 @@
     <main class="main">
 
       <!-- Logo -->
-      <div class="view-home__logo container">
+      <div 
+        class="view-home__logo container"
+        data-aos="fade-up">
         <a href="/">
           <svg 
             class="view-home__glyph"
@@ -43,14 +48,18 @@
       </div>
 
       <!-- Intro -->
-      <div class="view-home__intro container">
+      <div 
+        class="view-home__intro container"
+        data-aos="fade-up">
         <p class="view-home__greeting">Hey There 🖖</p>
         <h1 class="view-home__name">This is Alexandre Masy</h1>
         <h2 class="view-home__title">I'm a UI Architect + Engineer<br/> with a knack for the UX</h2>
       </div> 
 
       <!-- TLDR -->
-      <div class="view-home__tldr container">
+      <div 
+        class="view-home__tldr container"
+        data-aos="fade-up">
         <div class="view-home__greeting">In a nutshell</div>
         <div class="view-home__description">
           <p>I’m a creative who mixes design and technology to create <em>beautiful</em> ™ things. Combining well-studied user experience with a balanced, harmonious and consistent design from conception to realisation. That's the spicy mix, I'm aiming to foster good products.</p>
@@ -60,10 +69,12 @@
       </div>
 
       <!-- Work -->
-      <home-work />
+      <home-work 
+        data-aos="fade-up" />
 
       <!-- Footer -->
-      <navigation-footer />
+      <navigation-footer 
+        data-aos="fade-up" />
     </main>
   </div>
 </template>
@@ -71,6 +82,7 @@
 <script>
 import HomeWork from './components/home-work'
 import NavigationFooter from './components/navigations/footer'
+import Vivus from 'vivus'
 
 export default {
   name: 'Home',
@@ -78,6 +90,12 @@ export default {
   components: {
     HomeWork,
     NavigationFooter
-  }
+  },
+
+  mounted(){
+    new Vivus(this.$refs.topLeft, { duration: 150 })
+    new Vivus(this.$refs.topRight, { duration: 150 })
+    new Vivus(this.$refs.bottomRight, { duration: 150 })
+  } 
 }
 </script>
