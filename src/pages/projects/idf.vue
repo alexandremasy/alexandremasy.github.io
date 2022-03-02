@@ -14,17 +14,17 @@
           <div class="item">
             <h2 class="h4 text-light-70">Services</h2>
             <ul class="mt-4">
-              <li class="body2 text-light-60">User Experience Design</li>
-              <li class="body2 text-light-60 mt-1">Visual Design</li>
-              <li class="body2 text-light-60 mt-1">Web Design</li>
+              <li class="body3 text-light-60">User Experience Design</li>
+              <li class="body3 text-light-60 mt-1">Visual Design</li>
+              <li class="body3 text-light-60 mt-1">Web Design</li>
             </ul>
           </div>
           <div class="item">
             <h2 class="h4 text-light-70">Context</h2>
             <ul class="mt-4">
-              <li class="body2 text-light-60">Startup - Scale Up</li>
-              <li class="body2 text-light-60 mt-1">8 months</li>
-              <li class="body2 text-light-60 mt-1">02/2019 - 10/2019</li>
+              <li class="body3 text-light-60">Startup - Scale Up</li>
+              <li class="body3 text-light-60 mt-1">8 months</li>
+              <li class="body3 text-light-60 mt-1">02/2019 - 10/2019</li>
             </ul>
           </div>
         </div>
@@ -32,16 +32,12 @@
     </section>
 
     <!-- Demo -->
-    <section class="demo">
-      <div class="container">
-        <media-image 
-          backdrop-classes="bg-ground-30"
-          img-classes="w-col-10 pt-12"
-          legend='A special home for a dutty free e-shop'
-          src="/statics/projects/sayl/sayl-home.png"
-          />
-      </div>
-    </section>
+    <media-image 
+      animated
+      container-classes="bg-ground-30"
+      legend='A special home for a dutty free e-shop'
+      src="/statics/projects/idf/idf-home.jpg"
+      />
 
     <!-- Approach -->
     <section>
@@ -53,25 +49,81 @@
 
         <div class="flow-xs">
           <h3 class="h3 text-light-80">Challenges</h3>
-          <p class="body2 text-light-60">What if you could plan ahead of your trip your purchase in a dutty free and have the items ready when you are in the airport? Or when you land back home after your holliday? </p>
-          <p class="body2 text-light-60">As a concept, dutty free is at the confluence of many luxury branding with some special tax regulation. What a cocktail to mix in an online e-shop! </p>
-          <p class="body2 text-light-60">In this project I had multiple aspects to take into consideration:</p>
-          <ul>
-            <li class="body2 text-light-60">Create a consistent online shopping experience (web, mobile, kiosk) with a very wide range of products and categories.</li>
-            <li class="body2 text-light-60">Incorporate the specificities of a dutty free e-commerce like double pricing or specific purchase flows.</li>
-            <li class="body2 text-light-60">Provide a very premium esthetic and customer experience </li>
+          <p class="body2 text-light-60 md:pr-col-2">What if you could <span class="text-ground-40">plan ahead of your trip your purchase in a dutty free</span> and have the items ready when you are in the airport? Or when you land back home after your holliday? </p>
+          <p class="body2 text-light-60 md:pr-col-2">As a concept, dutty free is at the confluence of many luxury branding with some special tax regulation. What a cocktail to mix in an online e-shop! </p>
+          <p class="body2 text-light-60 md:pr-col-2">In this project I had multiple aspects to take into consideration:</p>
+          <ul class="list-disc list-inside">
+            <li class="body2 text-light-60"><span class="text-ground-40">Create a consistent online shopping experience</span> (web, mobile, kiosk) with a very wide range of products and categories;</li>
+            <li class="body2 text-light-60"><span class="text-ground-40">Incorporate the specificities of a dutty free e-commerce</span> like double pricing or specific purchase flows;</li>
+            <li class="body2 text-light-60"><span class="text-ground-40">Provide a very premium esthetic and customer experience;</span></li>
           </ul>
         </div>
 
         <div class="flow-xs">
-          <div class="h3 text-light-80">Approach</div>
+          <h3 class="h3 text-light-80">Approach</h3>
           <div class="flow-xs">
-            <p class="body2 text-light-60">I decided to embrace the beautiful material the fashion industry provides to offer a contrast between brand appeal and product display. Combining that with a dark and light pattern throughout the e-shop makes the products stand out. The navigation is shared between Zara’s alike menu and categories cards to ease the flow from one side to the other. </p>
-            <p class="body2 text-light-60">By providing first a set of wireframes and UI intent (demo of one webpage) I was quickly able to get feedback and then approval from all the stakeholders (Lagadère, Airports, Brands). I then move on the do the proper design of the overall website. </p>
-            <p class="body2 text-light-60">I worked closely with the development team to ensure accurate execution from start to finish. </p>
-            <p class="body2 text-light-60">It results in a highly graphical e-shop still praised by travellers today. The very selective brand Dior has approved this e-shop as one of few allowed to resell it’s products!</p>
+            <p class="body2 text-light-60 md:pr-col-2">I decided to <span class="text-ground-40">embrace the beautiful material the fashion industry provides</span> to offer a contrast between brand appeal and product display. Combining that with a <span class="text-ground-40">dark and light</span> pattern throughout the e-shop <span class="text-ground-40">makes the products stand out.</span> The navigation is shared between Zara’s alike menu and categories cards to ease the flow from one side to the other. </p>
+            <p class="body2 text-light-60 md:pr-col-2">By providing first a set of <span class="text-ground-40">wireframes and UI intent</span> (demo of one webpage) I was quickly able to get feedback and then <span class="text-ground-40">approval from all the stakeholders</span> (Lagadère, Airports, Brands). I then move on the do the proper design of the overall website. </p>
+            <p class="body2 text-light-60 md:pr-col-2">I worked closely with the development team to ensure <span class="text-ground-40">accurate execution from start to finish.</span></p>
+            <p class="body2 text-light-60 md:pr-col-2">It results in a highly graphical <span class="text-ground-40">e-shop still praised by travellers today.</span> The very selective brand <span class="text-ground-40">Dior has approved this e-shop</span> as one of few allowed to resell it’s products!</p>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Branding -->
+    <section class="border-solid border-t border-light-10 pt-10">
+      <div class="container-col-2 flow">
+        <h2 class="h1 text-light-90 flow-xs2">
+          <div>Evolve the brand language</div>
+        </h2>
+
+        <div class="flow-xs">
+          <p class="body2 text-light-60 md:pr-col-2">The branding material given by the client was very scarce. With only a logo and a set of colours - black &amp; white &amp; a navy blue - no typography and just a simple presentation website, almost no branding direction were given.</p>
+          <p class="body2 text-light-60 md:pr-col-2">The blue used in the logo being too vibrant and connoted, I search for a new colour. I used a tone skin colour and vibrant black &amp; white contrast to stay true to the brand attributes while bringing a more human touch. I set out to one well-balanced serif typography, Lora, for the heading while remaining more generic for the body font with the default os font.</p>
+        </div>
+
+        <div class="flex flex-column md:flex-row gap-4">
+          <media-image 
+            class="grow rounded h-40 md:h-80 w-1/2"
+            container-classes="flex h-full p-4 justify-center align-middle bg-light-10"
+            legend="The original logo with a vibrant blue"
+            spread="full"
+            src="/statics/projects/idf/idf-logo-old.svg"
+            />
+
+          <div class="grow rounded h-40 md:h-80 w-1/2">
+            <div class="columns-2 h-full p-4 bg-light-10">
+              <div class="swatch">Chinese Black</div>
+              <div class="swatch">Raw Sienna</div>
+              <div class="swatch">Anti-Flash White</div>
+              <div class="swatch">Desert Sand</div>
+            </div>
+
+            <div class="body4 text-light-40 text-center">An evolved palette with a human touch</div>
+          </div>
+        </div>
+
+        <media-image 
+          class=""
+          container-classes="bg-ground-40 rounded py-12"
+          legend="Lora is a well-balanced contemporary serif with roots in calligraphy"
+          spread="full"
+          src="/statics/projects/idf/idf-typography.png"
+          />
+
+      </div>
+    </section>
+
+    <!-- UI/UX -->
+    <section class="border-solid border-t border-light-10 pt-10">
+      <div class="container-col-2 flow">
+        <h2 class="h1 text-light-90 flow-xs2">
+          <div class="text-light-50">From low to high</div>
+          <div>And finally, the emotion burst.</div>
+        </h2>
+
+        <div class="flex"></div>
       </div>
     </section>
   </div>

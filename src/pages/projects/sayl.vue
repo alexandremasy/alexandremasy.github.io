@@ -84,30 +84,42 @@
         <div class="flow-xs">
           <p class="body2 text-light-60 md:pr-col-2">A modern web application that allows resto businesses to provide a <span class="text-red-50">high-quality ordering customer experience.</span> From <span class="text-red-50">branding and layout customisation</span> to an overwhelming range of features makes Sayl Resto a go-to product for hospitality businesses all over Europe.</p>
           <p class="body2 text-light-60 md:pr-col-2">Amongs all the features I built, here are some of the most praised ones</p>
-          <ul class="columns-2 flow-xs2">
+          <ul class="columns-2 md:columns-3 flow-xs2 pt-4">
             <li class="flex align-middle body3 text-light-60">
-              <icon class="flex align-middle justify-center text-ground-40 border border-ground-30 rounded-full w-8 h-8" glyph="building-store" /> 
-              <div class="ml-2">Multiple locations</div>
+              <div class="flex flex-col align-middle justify-center bg-white rounded-full p-2">
+                <icon class="leading-none text-red-50" glyph="building-store" /> 
+              </div>
+              <span class="ml-2">Multiple locations</span>
             </li>
             <li class="flex align-middle body3 text-light-60">
-              <icon class="flex align-middle justify-center text-ground-40 border border-ground-30 rounded-full w-8 h-8" glyph="glass" /> 
-              <div class="ml-2">Online &amp; In-resto order</div>
+              <div class="flex flex-col align-middle justify-center bg-white rounded-full p-2">
+                <icon class="leading-none text-red-50" glyph="glass" /> 
+              </div>
+              <span class="ml-2">Online &amp; In-resto order</span>
             </li>
             <li class="flex align-middle body3 text-light-60">
-              <icon class="flex align-middle justify-center text-ground-40 border border-ground-30 rounded-full w-8 h-8" glyph="percent" /> 
-              <div class="ml-2">Vouchers &amp; Discounts</div>
+              <div class="flex flex-col align-middle justify-center bg-white rounded-full p-2">
+                <icon class="leading-none text-red-50" glyph="percent" /> 
+              </div>
+              <span class="ml-2">Vouchers &amp; Discounts</span>
             </li>
             <li class="flex align-middle body3 text-light-60">
-              <icon class="flex align-middle justify-center text-ground-40 border border-ground-30 rounded-full w-8 h-8" glyph="rocket" /> 
-              <div class="ml-2">Giftcards</div>
+              <div class="flex flex-col align-middle justify-center bg-white rounded-full p-2">
+                <icon class="leading-none text-red-50" glyph="rocket" /> 
+              </div>
+              <span class="ml-2">Giftcards</span>
             </li>
             <li class="flex align-middle body3 text-light-60">
-              <icon class="flex align-middle justify-center text-ground-40 border border-ground-30 rounded-full w-8 h-8" glyph="award" /> 
-              <div class="ml-2">Loyalty</div>
+              <div class="flex flex-col align-middle justify-center bg-white rounded-full p-2">
+                <icon class="leading-none text-red-50" glyph="award" /> 
+              </div>
+              <span class="ml-2">Loyalty</span>
             </li>
             <li class="flex align-middle body3 text-light-60">
-              <icon class="flex align-middle justify-center text-ground-40 border border-ground-30 rounded-full w-8 h-8" glyph="directions" /> 
-              <div class="ml-2">Dynamic pricing &amp; visibility</div>
+              <div class="flex flex-col align-middle justify-center bg-white rounded-full p-2">
+                <icon class="leading-none text-red-50" glyph="directions" /> 
+              </div>
+              <span class="ml-2">Dynamic pricing &amp; visibility</span>
             </li>
           </ul>
         </div>
@@ -161,63 +173,107 @@
     </section>
 
     <!-- Branding -->
-    <section class="border-solid border-t border-light-10 py-20">
+    <section class="border-solid border-t border-light-10 pt-10">
       <div class="container-col-2 flow-xs">
-        <h2 class="h1 text-light-90">Branding &amp; Visual Identity</h2>
+         <h2 class="h1 text-light-90 flow-xs2">
+          <div>Give a face to the movement</div>
+          <div class="text-light-50">Branding &amp; Visual Identity</div>
+        </h2>
+        
         <p class="body2 text-light-60 md:pr-col-2">A boat sailing at sea. It is the metaphor on which the identity is built around. Throughout the customer, journey insights are collected (order, behaviour, ...). Without the proper guidance, all this data remains unexploitable. Sayl is the boat that will help the merchant navigate through all that data to activate the adequate customer. </p>
         <p class="body2 text-light-60 md:pr-col-2">The mark is built using the golden ratio and by applying a slant. All corners and curves are rounded using the two same radii. </p>
         <p class="body2 text-light-60 md:pr-col-2">The design system comes with one colour palette per hue and two additional for the light and dark theme. A primary palette act as a contrast to put highlight and perspective to an element that should trigger the user attention. </p>
 
-        <div class="flow-xs">
-          <h3 class="h4">Deliverables</h3>
-          <ul class="flow-xs2 columns-3">
-            <li class="body2 text-light-60"><span class="icon-flask"></span>Brand strategy</li>
-            <li class="body2 text-light-60"><span class="icon-book"></span>Brand guide</li>
-            <li class="body2 text-light-60"><span class="icon-heart"></span>Product Design</li>
-            <li class="body2 text-light-60"><span class="icon-ghost"></span>Iconography</li>
-            <li class="body2 text-light-60"><span class="icon-power"></span>Website</li>
-            <li class="body2 text-light-60"><span class="icon-pizza"></span>Design System</li>
+        <div class="flow-xs pt-8">
+          <h3 class="h4 text-light-70">Some of the deliverables</h3>
+          <ul class="flow-xs2 columns-2 md:columns-3">
+            <li class="flex align-middle body3 text-light-60">
+              <div class="flex flex-col align-middle justify-center bg-white rounded-full p-2">
+                <icon class="leading-none text-teal-50" glyph="flask" /> 
+              </div>
+              <span class="ml-2">Brand strategy</span>
+            </li>
+            <li class="flex align-middle body3 text-light-60">
+              <div class="flex flex-col align-middle justify-center bg-white rounded-full p-2">
+                <icon class="leading-none text-teal-50" glyph="book" /> 
+              </div>
+              <span class="ml-2">Brand guide</span>
+            </li>
+            <li class="flex align-middle body3 text-light-60">
+              <div class="flex flex-col align-middle justify-center bg-white rounded-full p-2">
+                <icon class="leading-none text-teal-50" glyph="heart" /> 
+              </div>
+              <span class="ml-2">Product Design</span>
+            </li>
+            <li class="flex align-middle body3 text-light-60">
+              <div class="flex flex-col align-middle justify-center bg-white rounded-full p-2">
+                <icon class="leading-none text-teal-50" glyph="ghost" /> 
+              </div>
+              <span class="ml-2">Iconography</span>
+            </li>
+            <li class="flex align-middle body3 text-light-60">
+              <div class="flex flex-col align-middle justify-center bg-white rounded-full p-2">
+                <icon class="leading-none text-teal-50" glyph="power" /> 
+              </div>
+              <span class="ml-2">Website</span>
+            </li>
+            <li class="flex align-middle body3 text-light-60">
+              <div class="flex flex-col align-middle justify-center bg-white rounded-full p-2">
+                <icon class="leading-none text-teal-50" glyph="pizza" /> 
+              </div>
+              <span class="ml-2">Design System</span>
+            </li>
           </ul>
         </div>
 
         <div>
           <div class="flex flex-column md:flex-row gap-4">
             <media-image 
-              class="grow"
-              backdrop-classes="bg-teal-60 flex justify-center align-middle"
+              class="grow rounded-tl h-40 md:h-80 w-1/2 bg-teal-60 flex justify-center align-middle"
+              container-classes="flex justify-center align-middle"
+              spread="full"
               src="/statics/projects/sayl/sayl-logomark.svg"
               />
+
             <media-image 
-              class="grow border border-solid border-light-10 flex justify-center align-middle"
-              backdrop-classes="bg-white-00 flex justify-center align-middle"
+              class="grow rounded-tr h-40 md:h-80 w-1/2 border border-solid border-light-10 flex justify-center align-middle"
+              container-classes="flex justify-center align-middle"
+              spread="full"
               src="/statics/projects/sayl/sayl-logo.svg"
               />
           </div>
 
           <media-grid 
-            class="bg-light-50"
+            class="bg-light-50 mt-4"
             direction="h"
             transform="rotate(-15deg) translate(-10%, -66%)"
             :value="brandingGrid"
           />
-
           
         </div>
       </div>
     </section>
 
     <footer class="nav-next-case">
-      <router-link
-        :to="{ name: 'case-idf' }"
-        class="nav-next-case__link"
-        @mouseenter="onMouseOver"
-        @mouseleave="onMouseOut">
-        <span class="nav-next-case__intro">Read the next case <icon glyph="arrow-right"></icon></span>
-        <h3 class="nav-next-case__label">
-          <div>International Duty Free E-Shop</div>
-          <div class="text-ground-40">Lagardere Travel Retail Belgium</div>
-        </h3>
-      </router-link>
+      <div class="container-col-2">
+        <router-link
+          :to="{ name: 'case-idf' }"
+          class="nav-next-case__link"
+          @mouseenter="onMouseOver($event, 'orange')"
+          @mouseleave="onMouseOut">
+          <span class="nav-next-case__intro">
+            <span>Read the next case</span> 
+            <icon 
+              class="ml-2 text-ground-40"
+              glyph="arrow-right" 
+              />
+          </span>
+          <h3 class="nav-next-case__label">
+            <div>International Duty Free E-Shop</div>
+            <div class="text-ground-40">Lagardere Travel Retail Belgium</div>
+          </h3>
+        </router-link>
+      </div>
     </footer>
   </div>
 </template>
@@ -278,8 +334,8 @@ export default {
   },
 
   methods: {
-    onMouseOver(event){
-      Events.$emit('cursor.enter', event.target)
+    onMouseOver(event, hue){
+      Events.$emit('cursor.enter', event.target, hue)
     },
 
     onMouseOut(){

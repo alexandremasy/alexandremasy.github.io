@@ -22,7 +22,8 @@
     width: 100%;
     max-width: var(--max-width);
     
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1rem 0;
     
     @screen md {
@@ -34,7 +35,8 @@
     width: 100%;
     max-width: var(--max-width);
     
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1rem var(--col-1);
     
     @screen md {

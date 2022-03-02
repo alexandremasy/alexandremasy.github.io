@@ -7,11 +7,13 @@
   #{$root}__link{
     @apply block;
     @apply flow-xs;
-    @apply container-col-2;
     @apply py-6;
   }
 
   #{$root}__intro {
+    @apply flex;
+    @apply align-middle;
+
     @apply body3;
     @apply text-light-80;
   }
