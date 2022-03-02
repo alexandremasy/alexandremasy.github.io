@@ -1,0 +1,23 @@
+.nav-next-case {
+  $root: '.nav-next-case';
+
+  @apply bg-light-00;
+  box-shadow: inset 0px 0px 20px -5px rgba(0, 0, 0, 0.05);
+
+  #{$root}__link{
+    @apply block;
+    @apply flow-xs;
+    @apply container-col-2;
+    @apply py-6;
+  }
+
+  #{$root}__intro {
+    @apply body3;
+    @apply text-light-80;
+  }
+
+  #{$root}__label {
+    @apply h2;
+    @apply text-light-90;
+  }
+}

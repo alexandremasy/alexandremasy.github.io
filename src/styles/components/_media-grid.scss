@@ -1,0 +1,57 @@
+.media-grid {
+  $root: '.media-grid';
+
+  @apply aspect-video;
+  @apply overflow-hidden;
+  @apply rounded;
+  
+  #{$root}__container {
+    @apply flex;
+    @apply gap-4;
+    
+  }
+
+  #{$root}__col {
+    @apply flex;
+    @apply flex-col;
+    @apply gap-4;
+  }
+  
+  &.-v {
+    #{$root}__container {
+      width: calc(100% + 2rem);
+      height: calc(100% + 2rem);
+      @apply -ml-4;
+      @apply -mt-4;
+    }
+
+    #{$root}__col {
+      &:nth-child(2n){
+        @apply mt-8;
+      }
+    }
+  }
+
+  &.-h {
+    #{$root}__container {
+      @apply flex-col;
+      height: 100%;
+      max-height: 100%;
+    }
+
+    #{$root}__col {
+      @apply flex-row;
+      @apply flex-shrink;
+      @apply h-2/3;
+    }
+    
+    #{$root}__picture {
+      @apply flex-shrink;
+      max-width: unset;
+      width: auto;
+
+      @apply pointer-events-none;
+      @apply select-none;
+    }
+  }
+}

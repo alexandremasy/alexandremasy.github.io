@@ -3,9 +3,10 @@
 
 # TEAM
 
-    <Alexandre Masy> -- <UI Designer & Engineer> -- <@alexandremasy>
+    <Alexandre Masy> -- <Concept Designer> -- <@alexandremasy>
 
 # TECHNOLOGY COLOPHON
 
+    Vuejs3, Vite
     CSS3, HTML5
-    Github Pages, Gitlab Pages, jQuery, Normalize.css
+    Github Pages, Gitlab Pages

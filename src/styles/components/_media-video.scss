@@ -1,0 +1,77 @@
+.media-video {
+  $root: '.media-video';
+
+  @apply flow-xs2;
+
+  #{$root}__video {
+    @apply mx-auto;
+    @apply w-full;
+    @apply h-auto;
+    @apply aspect-video;
+    @apply rounded;
+    @apply pointer-events-none;
+  }
+
+  #{$root}__legend {
+    @apply body4;
+    @apply text-light-40;
+    @apply text-center;
+
+    a{
+      @apply underline;
+    }
+  }
+
+  ////////////////////////////////////////////////////
+  //
+  //	12 Cols -> Acts as a section container
+  //
+  ////////////////////////////////////////////////////
+  
+  &.--12cols {
+    @apply container;
+    
+    #{$root}__media {
+      @apply rounded;
+      @apply px-col-1;
+      @apply pt-4;
+      @apply md:pt-10;
+    }
+  }
+
+  ////////////////////////////////////////////////////
+  //
+  //	Animated -> 16:9 view with img scrolling from bottom to top
+  //
+  ////////////////////////////////////////////////////
+
+  &.--animated {
+    #{$root}__media {
+      @apply aspect-video;
+      @apply overflow-hidden;
+    }
+
+    #{$root}__img {
+      animation: media-image-slider 10s infinite forwards;
+      @apply shadow-l;
+    }
+  }
+}
+
+@keyframes media-image-slider {
+  0% {
+    transform: translateY(50%)
+  }
+  
+  15% {
+    transform: translateY(0%)
+  }
+
+  90% {
+    transform: translateY(-85%);
+  }
+
+  100% {
+    transform: translateY(-110%);
+  }
+}

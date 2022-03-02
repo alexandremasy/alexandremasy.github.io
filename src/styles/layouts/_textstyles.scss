@@ -1,0 +1,88 @@
+@layer utilities {
+
+  ////////////////////////////////////////////////////
+  //
+  //	Headings
+  //
+  ////////////////////////////////////////////////////
+  .h1 {
+    @apply font-heading;
+    @apply text-3xl;
+    @apply leading-tight;
+  
+    @screen md {
+      @apply text-5xl;
+    }
+  }
+  
+  // 1,5 / 2 => 24 / 32
+  .h2 {
+    @apply font-heading;
+    @apply text-2xl;
+    @apply leading-tight;
+  
+    @screen md {
+      @apply text-4xl;
+    }
+  }
+  
+  // 1,3125 / 1,75 => 21 / 28
+  .h3 {
+    @apply font-heading;
+    @apply text-xl;
+    @apply leading-tight;
+  
+    @screen md {
+      @apply text-3xl;
+    }
+  }
+  
+  // 1,125 / 1,5 => 18 / 24
+  .h4 {
+    @apply font-heading;
+    @apply text-lg;
+    @apply leading-tight;
+  
+    @screen md {
+      @apply text-2xl;
+    }
+  }
+  
+  ////////////////////////////////////////////////////
+  //
+  //	Body
+  //
+  ////////////////////////////////////////////////////
+  
+  .body1 {
+    @apply text-lg;
+    
+    @screen md {
+      @apply text-2xl;
+    }
+  }
+  
+  .body2 {
+    @apply text-base;
+  
+    @screen md {
+      @apply text-xl;
+    }
+  }
+  
+  .body3 {
+    @apply text-sm;
+    
+    @screen md {
+      @apply text-lg;
+    }
+  }
+  
+  .body4 {
+    @apply text-xs;
+  
+    @screen md {
+      @apply text-base;
+    }
+  }
+}  

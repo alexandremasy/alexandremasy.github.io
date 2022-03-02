@@ -1,18 +1,30 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <nav-header />
+  <router-view />
+  <nav-footer />
+  <branding-cursor />
+
+  <div class="debug" v-if="false">
+    <div class="debug__item"></div>
+    <div class="debug__item"></div>
+    <div class="debug__item"></div>
+    <div class="debug__item"></div>
+    <div class="debug__item"></div>
+    <div class="debug__item"></div>
+    <div class="debug__item"></div>
+    <div class="debug__item"></div>
+    <div class="debug__item"></div>
+    <div class="debug__item"></div>
+    <div class="debug__item"></div>
+    <div class="debug__item"></div>
+    <div class="debug__item"></div>
+    <div class="debug__item"></div>
   </div>
 </template>
 
-<script>
-import AOS from 'aos'
+<script setup>
+import NavHeader from './components/navigations/header.vue'
+import NavFooter from './components/navigations/footer.vue'
 
-export default {
-  mounted(){
-    AOS.init({
-      duration: 600,
-      delay: 100
-    })
-  }
-}
+import BrandingCursor from './components/brandings/cursor.vue'
 </script>

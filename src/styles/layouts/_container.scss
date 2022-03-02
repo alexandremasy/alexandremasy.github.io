@@ -1,0 +1,142 @@
+:root {
+  --max-width: 90rem;
+  --col: calc(min(100vw, var(--max-width)) / 14);
+  --col-1: calc(var(--col) * 1);
+  --col-2: calc(var(--col) * 2);
+  --col-3: calc(var(--col) * 3);
+  --col-4: calc(var(--col) * 4);
+  --col-5: calc(var(--col) * 5);
+  --col-6: calc(var(--col) * 6);
+  --col-7: calc(var(--col) * 7);
+  --col-8: calc(var(--col) * 8);
+  --col-9: calc(var(--col) * 9);
+  --col-10: calc(var(--col) * 10);
+  --col-11: calc(var(--col) * 11);
+  --col-12: calc(var(--col) * 12);
+  --col-13: calc(var(--col) * 13);
+  --col-14: calc(var(--col) * 14);
+}
+
+@layer utilities {
+  .container {
+    width: 100%;
+    max-width: var(--max-width);
+    
+    margin: auto;
+    padding: 1rem 0;
+    
+    @screen md {
+      padding: 1rem var(--col-1);
+    }
+  }
+  
+  .container-col-2 {
+    width: 100%;
+    max-width: var(--max-width);
+    
+    margin: auto;
+    padding: 1rem var(--col-1);
+    
+    @screen md {
+      padding: 1rem var(--col-2);
+    }
+  }
+  
+  ////////////////////////////////////////////////////
+  //
+  //	Flow
+  //
+  ////////////////////////////////////////////////////
+  
+  //=> 32 / 40
+  .flow {
+    & > * + * {
+      @apply mt-8;
+    
+      @screen md {
+        @apply mt-10;
+      }
+    }
+  }
+
+  //=> 24 / 32
+  .flow-s {
+    & > * + * {
+      @apply mt-6;
+    
+      @screen md {
+        @apply mt-8;
+      }
+    }
+  }
+  
+  //=> 16 / 24
+  .flow-xs {
+    & > * + * {
+      @apply mt-4;
+  
+      @screen md { 
+        @apply mt-6;
+      }
+    }
+    
+  }
+  
+  //=> 4 / 4
+  .flow-xs2 {
+    & > * + * {
+      @apply mt-1;
+    }
+  }
+
+  ////////////////////////////////////////////////////
+  //
+  //	Width
+  //
+  ////////////////////////////////////////////////////
+  
+  @for $i from 1 through 14 {
+    .w-col-#{$i}{
+      width: var(--col-#{$i});
+    }
+  }
+
+  ////////////////////////////////////////////////////
+  //
+  //	Margin
+  //
+  ////////////////////////////////////////////////////
+  
+  @for $i from 1 through 14 {
+    .ml-col-#{$i} {
+      margin-left: var(--col-#{$i});
+    }
+    .mr-col-#{$i} {
+      margin-right: var(--col-#{$i});
+    }
+    .mx-col-#{$i} {
+      margin-left: var(--col-#{$i});
+      margin-right: var(--col-#{$i});
+    }
+  }
+
+  
+  ////////////////////////////////////////////////////
+  //
+  //	Padding - Left
+  //
+  ////////////////////////////////////////////////////
+  
+  @for $i from 1 through 14 {
+    .pl-col-#{$i} {
+      padding-left: var(--col-#{$i});
+    }
+    .pr-col-#{$i} {
+      padding-right: var(--col-#{$i});
+    }
+    .px-col-#{$i} {
+      padding-left: var(--col-#{$i});
+      padding-right: var(--col-#{$i});
+    }
+  }
+}

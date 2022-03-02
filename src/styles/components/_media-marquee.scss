@@ -1,0 +1,7 @@
+.marquee-text-wrap {
+  .marquee-text-content {
+    & > * + * {
+      @apply ml-4
+    }
+  }
+}

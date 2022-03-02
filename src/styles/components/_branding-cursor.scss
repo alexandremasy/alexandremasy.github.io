@@ -1,0 +1,34 @@
+:root {
+  /* Cursor styles */
+	--cursor-stroke: #e9edf0;
+	--cursor-fill: none;
+	--cursor-stroke-width: 2px;
+}
+
+.cursor {
+	display: none;
+}
+
+@media (any-pointer: fine) {
+	* {
+		cursor: url('/statics/images/cursor.svg'), auto;	
+	}
+
+	.cursor {
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: block;
+		pointer-events: none;
+		opacity: 0;
+		overflow: visible;
+		z-index: 9999;
+	}
+
+	.cursor__inner,
+	.cursor__rect {
+		fill: var(--cursor-fill);
+		stroke: var(--cursor-stroke);
+		stroke-width: var(--cursor-stroke-width);
+	}
+}

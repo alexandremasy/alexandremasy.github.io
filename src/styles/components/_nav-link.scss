@@ -1,0 +1,31 @@
+.link {
+  // --link-color: '#D1F2EE';
+  --link-color: red;
+  --link-thickness: 2px;
+  
+  @apply inline-block;
+  @apply body2;
+  
+  box-shadow: 0 var(--link-thickness) 0 var(--link-color);
+  @apply transition;
+  @apply duration-500;
+
+  &.-blue {
+    --link-color: #59B9E1;
+    @apply text-blue-50;
+  }
+  
+  &.-orange {
+    --link-color: #FCCEBD;
+    @apply text-orange-50;
+  }
+  
+  &.-teal {
+    --link-color: #D1F2EE;
+    @apply text-teal-60;
+  }
+
+  &:hover {
+    --link-thickness: 4px;
+  }
+}

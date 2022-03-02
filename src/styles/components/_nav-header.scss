@@ -1,0 +1,13 @@
+@layer components{ 
+  .nav-header {
+    @apply sticky;
+    @apply z-50;
+    @apply top-0;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    @apply py-2;
+  
+    @screen md {
+      @apply py-8;
+    }
+  }
+}
