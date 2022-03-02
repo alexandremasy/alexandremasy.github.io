@@ -11,7 +11,7 @@
 
         <p class="body1 text-light-60  md:pr-col-2">The scale-up behind Sayl platform is on a mission to digitalize hospitality businesses to the next level with a best-in-class omnichannel offering that combines digital ordering with deep customer understanding.</p>
 
-        <div class="flex flex-column md:flex-row md:gap-28">
+        <div class="flex flex-column md:flex-row gap-2 md:gap-28">
           <div class="item">
             <h2 class="h4 text-light-70">Role</h2>
             <ul class="mt-4 flow-xs2">
@@ -254,6 +254,7 @@
       </div>
     </section>
 
+    <!-- Next :: IDF -->
     <footer class="nav-next-case">
       <div class="container-col-2">
         <router-link

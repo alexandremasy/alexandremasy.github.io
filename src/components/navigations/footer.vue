@@ -6,9 +6,13 @@
 
       <!-- Contact -->
       <div class="flex flex-col md:flex-row gap-1 justify-between">
-        <a href="mailto:hello@alexandremasy.com" class="inline-block body3 text-orange-50 bg-light-00 px-4 py-2 rounded" target="_blank">hello@alexandremasy.com</a>
+        
+        <a 
+          href="mailto:hello@alexandremasy.com" 
+          class="inline-block body3 text-orange-50 bg-light-00 px-2 md:px-4 py-2 rounded" 
+          target="_blank">hello@alexandremasy.com</a>
 
-        <div class="social flex gap-4">
+        <div class="social flex gap-4 mt-4 md:mt-0">
           <a 
             href="https://www.linkedin.com/in/alexandremasy/" 
             target="_blank" 
