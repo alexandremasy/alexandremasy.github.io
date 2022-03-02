@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",
-    "execa": "^6.1.0",
+    "execa": "^5.1.0",
     "sass": "^1.48.0",
     "tailwind-config-viewer": "^1.6.3",
     "vite": "^2.7.2"
