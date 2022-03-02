@@ -1,0 +1,12 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Alexandre Masy> -- <Concept Designer> -- <@alexandremasy>
+
+# TECHNOLOGY COLOPHON
+
+    Vuejs3, Vite
+    CSS3, HTML5
+    Github Pages, Gitlab Pages
