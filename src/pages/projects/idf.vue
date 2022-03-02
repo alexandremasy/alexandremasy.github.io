@@ -91,17 +91,14 @@
             spread="full"
             src="/statics/projects/idf/idf-logo-old.svg"
             />
-
-          <div class="grow rounded h-40 md:h-80 w-1/2">
-            <div class="columns-2 h-full p-4 bg-light-10">
-              <div class="swatch">Chinese Black</div>
-              <div class="swatch">Raw Sienna</div>
-              <div class="swatch">Anti-Flash White</div>
-              <div class="swatch">Desert Sand</div>
-            </div>
-
-            <div class="body4 text-light-40 text-center">An evolved palette with a human touch</div>
-          </div>
+          
+          <media-image 
+            class="grow rounded h-40 md:h-80 w-1/2"
+            container-classes="flex h-full p-4 justify-center align-middle bg-light-10"
+            legend="An evolved palette with a human touch"
+            spread="full"
+            src="/statics/projects/idf/idf-colors.svg"
+            />
         </div>
 
         <media-image 
@@ -109,7 +106,7 @@
           container-classes="bg-ground-40 rounded py-12"
           legend="Lora is a well-balanced contemporary serif with roots in calligraphy"
           spread="full"
-          src="/statics/projects/idf/idf-typography.png"
+          src="/statics/projects/idf/idf-lora.svg"
           />
 
       </div>
@@ -123,12 +120,90 @@
           <div>And finally, the emotion burst.</div>
         </h2>
 
-        <div class="flex"></div>
+        <div class="flex flex-column md:flex-row gap-4">
+          <media-image 
+            class="grow rounded w-1/2"
+            spread="full"
+            src="/statics/projects/idf/idf-wireframe.png"
+            />
+          
+          <media-image 
+            class="grow rounded w-1/2"
+            spread="full"
+            src="/statics/projects/idf/idf-desktop.png"
+            />
+        </div>
+
+        <media-image 
+          spread="full"
+          src="/statics/projects/idf/idf-mobile.png"
+          />
+
+        <div class="flex flex-column md:flex-row gap-4">
+          <media-image 
+            class="grow rounded w-1/2"
+            legend="Big product card that make branding shine"
+            spread="full"
+            src="/statics/projects/idf/idf-cards.png"
+            />
+          
+          <media-image 
+            class="grow rounded w-1/2"
+            legend="Taxation inside and outside Europe"
+            spread="full"
+            src="/statics/projects/idf/idf-products.png"
+            />
+        </div>
+
+        <media-image 
+          spread="full"
+          src="/statics/projects/idf/idf-overview.png"
+          />
       </div>
     </section>
+
+    <!-- Next :: CDM -->
+    <footer class="nav-next-case">
+      <div class="container-col-2">
+        <router-link
+          :to="{ name: 'case-cdm' }"
+          class="nav-next-case__link"
+          @mouseenter="onMouseOver($event, 'blue')"
+          @mouseleave="onMouseOut">
+          <span class="nav-next-case__intro">
+            <span>Read the next case</span> 
+            <icon 
+              class="ml-2 text-cdm-50"
+              glyph="arrow-right" 
+              />
+          </span>
+          <h3 class="nav-next-case__label">
+            <div>A digital home for</div>
+            <div class="text-cdm-60">La Cité des Métiers of Brussels</div>
+          </h3>
+        </router-link>
+      </div>
+    </footer>
   </div>
 </template>
 
-<script setup>
+<script>
 import MediaImage from '../../components/media/image.vue'
+import Events from '../../utils/events'
+
+export default { 
+  components: {
+    MediaImage
+  },
+
+  methods: {
+    onMouseOver(event, hue){
+      Events.$emit('cursor.enter', event.target, hue)
+    },
+
+    onMouseOut(){
+      Events.$emit('cursor.leave')
+    }
+  }
+}
 </script>
