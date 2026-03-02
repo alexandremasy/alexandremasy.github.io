@@ -1,0 +1,89 @@
+{
+  "\u0000C:/Users/alexandremasy/Documents/alexandremasy.com/node_modules/tiny-emitter/index.js?commonjs-module": [],
+  "\u0000C:/Users/alexandremasy/Documents/alexandremasy.com/node_modules/vue-marquee-text-component/dist/MarqueeText.common.js?commonjs-module": [
+    "/assets/MarqueeText.common-DR-0A23k.js"
+  ],
+  "\u0000C:/Users/alexandremasy/Documents/alexandremasy.com/node_modules/vue/dist/vue.runtime.esm-bundler.js?commonjs-proxy": [
+    "/assets/MarqueeText.common-DR-0A23k.js"
+  ],
+  "\u0000commonjsHelpers.js": [],
+  "\u0000plugin-vue:export-helper": [],
+  "\u0000vite/modulepreload-polyfill.js": [],
+  "\u0000vite/preload-helper.js": [],
+  "../../../../statics/images/dribbble.svg": [],
+  "../../../../statics/images/facebook.svg": [],
+  "../../../../statics/images/github.svg": [],
+  "../../../../statics/images/instagram.svg": [],
+  "../../../../statics/images/linkedin.svg": [],
+  "../../../../statics/projects/cdm/cdm-cover.png": [
+    "/assets/home-d3G1_Kaf.js"
+  ],
+  "../../../../statics/projects/idf/idf-cover.png": [
+    "/assets/home-d3G1_Kaf.js"
+  ],
+  "../../../../statics/projects/sayl/sayl-cover.png": [
+    "/assets/home-d3G1_Kaf.js"
+  ],
+  "index.html": [],
+  "node_modules/@spices/basil/dist/spices-basil.esm.min.js": [],
+  "node_modules/@unhead/vue/dist/client.mjs": [],
+  "node_modules/@unhead/vue/dist/shared/vue.Cr7xSEtD.mjs": [],
+  "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [],
+  "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [],
+  "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [],
+  "node_modules/@vue/shared/dist/shared.esm-bundler.js": [],
+  "node_modules/gsap/CSSPlugin.js": [],
+  "node_modules/gsap/gsap-core.js": [],
+  "node_modules/gsap/index.js": [],
+  "node_modules/hookable/dist/index.mjs": [],
+  "node_modules/tiny-emitter/index.js": [],
+  "node_modules/tiny-emitter/instance.js": [],
+  "node_modules/unhead/dist/client.mjs": [],
+  "node_modules/unhead/dist/shared/unhead.CbpEuj3y.mjs": [],
+  "node_modules/unhead/dist/shared/unhead.D_nrZZPH.mjs": [],
+  "node_modules/unhead/dist/shared/unhead.fVVqDC1O.mjs": [],
+  "node_modules/unhead/dist/shared/unhead.yem5I2v_.mjs": [],
+  "node_modules/vite-ssg/dist/index.mjs": [],
+  "node_modules/vite-ssg/dist/shared/vite-ssg.C6pK7rvr.mjs": [],
+  "node_modules/vite-ssg/dist/shared/vite-ssg.ETIvV-80.mjs": [],
+  "node_modules/vue-marquee-text-component/dist/MarqueeText.common.js": [
+    "/assets/MarqueeText.common-DR-0A23k.js"
+  ],
+  "node_modules/vue-router/dist/devtools-EWN81iOl.mjs": [],
+  "node_modules/vue-router/dist/vue-router.mjs": [],
+  "node_modules/vue/dist/vue.runtime.esm-bundler.js": [
+    "/assets/MarqueeText.common-DR-0A23k.js"
+  ],
+  "src/App.vue": [],
+  "src/components/brandings/cursor.vue": [],
+  "src/components/brandings/logo.vue": [],
+  "src/components/media/grid.vue": [
+    "/assets/sayl-D0r2anHY.js"
+  ],
+  "src/components/media/icon.vue": [],
+  "src/components/media/image.vue": [
+    "/assets/image-TDaTKPCw.js"
+  ],
+  "src/components/media/video.vue": [
+    "/assets/sayl-D0r2anHY.js"
+  ],
+  "src/components/navigations/footer.vue": [],
+  "src/components/navigations/header.vue": [],
+  "src/main.js": [],
+  "src/pages/home.vue": [
+    "/assets/home-d3G1_Kaf.js"
+  ],
+  "src/pages/projects/cdm.vue": [
+    "/assets/cdm-BNYbb2-A.js"
+  ],
+  "src/pages/projects/idf.vue": [
+    "/assets/idf-CZfMTpHR.js"
+  ],
+  "src/pages/projects/sayl.vue": [
+    "/assets/sayl-D0r2anHY.js"
+  ],
+  "src/pages/routes.js": [],
+  "src/styles/index.scss": [],
+  "src/utils/events.js": [],
+  "src/utils/hue.js": []
+}
