@@ -59,7 +59,7 @@
       <!-- Copyright -->
       <div class="flex align-middle gap-4 border-t border-t-light-10 pt-4 md:pt-6">
         <branding-logo size="s" />
-        <p class="body4 text-light-50">©2006 - 2022 Alexandre Masy</p>
+        <p class="body4 text-light-50">©2006 - {{ currentYear }} Alexandre Masy</p>
       </div>
     </div>
   </footer>
@@ -74,6 +74,12 @@ export default {
     BrandingLogo
   },
   
+  computed: {
+    currentYear() {
+      return new Date().getFullYear()
+    }
+  },
+
   methods: {
     onMouseOver(event){
       Events.$emit('cursor.enter', event.target)

@@ -5,11 +5,14 @@
     <header class="intro container-col-2">
       <div class="flow md-pr-col-3">
         <div class="intro__greetings inline-block px-4 py-2 rounded bg-light-00 body2 text-light-50">🖖 Hey There</div>
-        <h1 class="h1 text-light-90">Alexandre Masy - A product designer with a focus on the user experience.</h1>
+        <div>
+          <h1 class="h1 text-light-90">Experience Strategy
+  & Human+AI Design Leader.</h1>
+          <p class="text-light-50 body2">Navigating complexity at the intersection of CX, org design & AI.</p>
+        </div>
         <div class="intro__about body1 text-light-60 flow-xs">
-          <p>I’m a creative who mixes design 🎨 and technology 💻 to create <span class="text-red-50">b</span><span class="text-orange-50">e</span><span class="text-yellow-50">a</span><span class="text-green-50">u</span><span class="text-blue-50">t</span><span class="text-teal-50">i</span><span class="text-purple-50">f</span><span class="text-pink-50">u</span><span class="text-red-50">l</span><span class="text-orange-50">™</span> things. Combining well-studied user experience with a balanced, harmonious and consistent design from conception to production.</p>
-          <p>That's the spicy mix 🌶, I'm aiming to foster good products. 🚀</p>
-          <p>My current mission is with <span class="text-green-50">🏦 BNP Paribas Fortis as Concept Designer.</span></p>
+          <p>I’m a creative who mixes strategy 🧭 and technology 💻 to create <span class="text-red-50">b</span><span class="text-orange-50">e</span><span class="text-yellow-50">a</span><span class="text-green-50">u</span><span class="text-blue-50">t</span><span class="text-teal-50">i</span><span class="text-purple-50">f</span><span class="text-pink-50">u</span><span class="text-red-50">l</span><span class="text-orange-50">™</span> experiences. I lead experience strategy in high-complexity environments — at the intersection of Human + AI — turning ambiguous business challenges into coherent journeys, operating models, and decisions at scale. From service orchestration to design leadership, I bridge strategy and craft.</p>
+          <p>My current mission is with <span class="text-green-50">🏦 BNP Paribas Fortis as Business Designer.</span></p>
         </div>
       </div>
     </header>

@@ -1,0 +1,54 @@
+# Alexandre Masy
+
+> Experience Strategy & Human+AI Design Leader. Navigating complexity at the intersection of CX, org design & AI.
+
+Alexandre Masy is a creative who mixes strategy and technology to create beautiful experiences. He leads experience strategy in high-complexity environments — at the intersection of Human + AI — turning ambiguous business challenges into coherent journeys, operating models, and decisions at scale. From service orchestration to design leadership, he bridges strategy and craft.
+
+His current mission is with BNP Paribas Fortis as Business Designer.
+
+## Contact
+
+- Email: hello@alexandremasy.com
+- Website: https://alexandremasy.com
+- LinkedIn: https://www.linkedin.com/in/alexandremasy/
+- Dribbble: https://dribbble.com/alexandremasy
+- GitHub: https://github.com/alexandremasy
+- Instagram: https://www.instagram.com/alexandremasy/
+
+## Selected Work
+
+### Sayl — Hospitality Digitalisation Platform (2018–2021)
+Role: Product Design, Brand Design, Lead Frontend Architect
+Duration: 42 months (June 2018 – November 2021)
+Context: Startup / Scale-up
+
+Sayl is a best-in-class omnichannel platform that helps hospitality businesses digitalize their operations. Alexandre was the sole designer in a small tech team, responsible for the full product design across the platform: an online and offline shopping experience, a kitchen display system, and a merchant management web application.
+
+Key achievements:
+- Designed 50+ user flows, 20 fully tested prototypes, 200+ views across 5 languages
+- Built a design system with 100+ components and 500+ icons
+- Platform powers 100+ restaurants across Europe and processes 10,000+ orders weekly
+- Designed and implemented the full Sayl brand identity (logo, brand guide, design system)
+
+### International Duty Free — Lagardère Travel Retail Belgium (2019)
+Role: UX Design, Visual Design, Web Design
+Duration: 8 months (February 2019 – October 2019)
+Context: Consultant
+
+Designed a premium e-commerce experience for the historical duty-free leader in Belgium, present at Brussels Zaventem airport, Brussels-South Charleroi airport, and Brussels South train station. The challenge was to blend a luxury brand aesthetic with the specific constraints of duty-free e-commerce (double pricing, purchase flows tied to flight schedules).
+
+Key achievements:
+- Designed a consistent shopping experience across web, mobile, and kiosk
+- The e-shop was approved by Dior as one of few authorised resellers online
+
+### La Cité des Métiers — Brussels (2019)
+Role: UX Design, Visual Design, Web Design, Design Methodology Coach
+Duration: 8 months (February 2019 – October 2019)
+Context: External Consultant at Actiris
+
+Created the digital home for La Cité des Métiers, a professional guidance center initiated by Actiris in Brussels, open to everyone regardless of age, status, or qualification level. Alexandre worked as an external consultant embedded within the Actiris team.
+
+Key achievements:
+- Designed online and in-situ digital experience (including kiosks)
+- Organised workshops to onboard the internal team on design methodology (discover, explore, test, listen)
+- Coached the Actiris design and development team to ensure long-term autonomy on the project
