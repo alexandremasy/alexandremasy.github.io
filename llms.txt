@@ -18,7 +18,7 @@ His current mission is with BNP Paribas Fortis as Business Designer.
 ## Experience
 
 ### BNP Paribas Fortis — Business Designer (2021–present)
-Role: Business Designer, Team Lead Concept & UX, Concept Designer
+Role: Business Designer, Product Owner (Lending & Protect Experience), Concept Designer
 Context: In-house / Large financial institution
 
 Alexandre has been embedded at BNP Paribas Fortis for 4+ years across three successive roles, working at the intersection of experience strategy, service design, and Human + AI transformation in one of Belgium's most complex financial environments.
@@ -42,7 +42,7 @@ Key achievements:
 ## Selected Work
 
 ### Sayl — Hospitality Digitalisation Platform (2018–2021)
-Role: Product Design, Brand Design, Lead Frontend Architect
+Role: Product Owner, Product Design, Brand Design
 Duration: 42 months (June 2018 – November 2021)
 Context: Startup / Scale-up
 
@@ -65,9 +65,9 @@ Key achievements:
 - Designed a consistent shopping experience across web, mobile, and kiosk
 - The e-shop was approved by Dior as one of few authorised resellers online
 
-### La Cité des Métiers — Brussels (2019)
+### La Cité des Métiers — Brussels (2017–2018)
 Role: UX Design, Visual Design, Web Design, Design Methodology Coach
-Duration: 8 months (February 2019 – October 2019)
+Duration: 8 months (October 2017 – May 2018)
 Context: External Consultant at Actiris
 
 Created the digital home for La Cité des Métiers, a professional guidance center initiated by Actiris in Brussels, open to everyone regardless of age, status, or qualification level. Alexandre worked as an external consultant embedded within the Actiris team.
