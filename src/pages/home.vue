@@ -43,7 +43,7 @@
             <div class="project__content flow">
               <div class="flow-xs2">
                 <div class="project__name">Sayl</div>
-                <div class="project__about">Product - Branding - Architect</div>
+                <div class="project__about">Product Owner - Product Design - Branding</div>
               </div>
 
               <a href="#" class="link -teal">Serve Better. Serve More.</a>
@@ -66,7 +66,7 @@
             <div class="project__content flow">
               <div class="flow-xs2">
                 <div class="project__name">International Duty Free</div>
-                <div class="project__about">UX Architect - UI Design</div>
+                <div class="project__about">Experience Design - Multi-stakeholder</div>
               </div>
 
               <a href="#" class="link -orange">Premium e-shop on the go.</a>
@@ -88,7 +88,7 @@
             <div class="project__content flow">
               <div class="flow-xs2">
                 <div class="project__name">La Cité des Métiers - Brussels</div>
-                <div class="project__about">Branding - Product - Architect</div>
+                <div class="project__about">Product - Design Methodology - Coaching</div>
               </div>
 
               <a href="#" class="link -blue">Get back to school.</a>

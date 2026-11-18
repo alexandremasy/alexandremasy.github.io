@@ -8,7 +8,7 @@
           <div class="text-cdm-60">La Cité des Métiers of Brussels</div>
         </h1>
 
-        <p class="body1 text-light-60  md:pr-col-2">The project was initiated in 2018 by Actiris as an answer to the need for a place to give guidance to all, no matter your professional situation, age, status, level of qualification. I help create a digital home for all.</p>
+        <p class="body1 text-light-60  md:pr-col-2">The project was initiated by Actiris as an answer to the need for a place to give guidance to all, no matter your professional situation, age, status, level of qualification. I help create a digital home for all.</p>
 
         <div class="flex flex-column md:flex-row gap-2 md:gap-28">
           <div class="item">
@@ -24,7 +24,7 @@
             <ul class="mt-4 flow-xs2">
               <li class="body3 text-light-60">Consultant</li>
               <li class="body3 text-light-60 mt-1">8 months</li>
-              <li class="body3 text-light-60 mt-1">02/2019 - 10/2019</li>
+              <li class="body3 text-light-60 mt-1">10/2017 - 05/2018</li>
             </ul>
           </div>
         </div>

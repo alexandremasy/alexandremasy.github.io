@@ -15,9 +15,9 @@
           <div class="item">
             <h2 class="h4 text-light-70">Role</h2>
             <ul class="mt-4 flow-xs2">
-              <li class="body3 text-light-60">Product Design</li>
+              <li class="body3 text-light-60">Product Owner</li>
+              <li class="body3 text-light-60 mt-1">Product Design</li>
               <li class="body3 text-light-60 mt-1">Brand Design</li>
-              <li class="body3 text-light-60 mt-1">Lead Frontend Architect</li>
             </ul>
           </div>
           <div class="item">
